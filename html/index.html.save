@@ -1,0 +1,20 @@
+<!DOCTYP html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+	<HEAD>
+		<TITLE>
+			A small hello
+		</TITLE>
+	</HEAD>
+<BODY>
+	<H1>HI</H1>
+	<P> This is a very minimal "hello world" HTML document. </P>
+	<P> this is an image.</P>
+	<P><img src="./static/image1.jpg" width="25%"></P>
+
+
+	<P>javascript loaded pics</P>
+	//<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/image_loader.js"></script>
+
+</BODY>
+</HTML>

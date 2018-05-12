@@ -1,0 +1,52 @@
+<!DOCTYP html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+	<HEAD>
+		<TITLE>
+			KUERIG MONITOR
+		</TITLE>
+		
+		<script type="text/javascript" src="./images/getalbumpics.php?id=myvacation"></script>
+
+		<script type="text/javascript">
+
+		//Optional, manual description for particular pictures inside album
+		//Syntax: albumid.desc[index]="Picture description here"
+		//myvacation.desc[0]="This is description for the 1st picture in the album"
+		//eg: myvacation.desc[6]="This is description for the 7th picture in the album"
+
+		</script>
+
+		<script type="text/javascript" src="ddphpalbum.js">
+
+		/***********************************************
+		* PHP Photo Album script v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		* Please keep this notice intact
+		* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+		***********************************************/
+
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="ddphpalbum.css" />
+
+	</HEAD>
+<BODY>
+	<H1>KEURIG MONITOR</H1>
+	<P> These are the last coffee bandits </P>
+
+	<script type="text/javascript">
+
+	new phpimagealbum({
+		albumvar: myvacation, //ID of photo album to display (based on getpics.php?id=xxx)
+		dimensions: [2,2],
+		sortby: ["date", "desc"], //["file" or "Date", "asc" or "desc"]
+		autodesc:"Photo %d", //Auto add a desc n=beneath each pic? (use keyword %i for image position, %d for image date)
+		showsourceorder: false, //show source order of each pic? (helpful during setup)
+		onphotoclick: function(thumbref, thumbindex, thumbfilename){
+			thumbnailviewer.loadimage(thumbref.src, "fit2screen")
+		}
+	})
+
+	</script>
+
+</BODY>
+</HTML>
