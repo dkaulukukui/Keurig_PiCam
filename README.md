@@ -31,10 +31,9 @@ Script Launcher Instructions:  Uses Crontab to call launcher.sh which calls pyth
    - Ensure that file path in launcher.sh to python script is correct
    
 All Credit for PHP/Javascript album go to:
-/* PHP Photo Album script v2.11
-* Author: Dynamic Drive at http://www.dynamicdrive.com/
-* Visit http://www.dynamicdrive.com/ for full source code
-*/
+- PHP Photo Album script v2.11
+- Author: Dynamic Drive at http://www.dynamicdrive.com/
+- Visit http://www.dynamicdrive.com/ for full source code
 
 Known issues:
 - memory overflow of snapshots are not manually removed periodically
